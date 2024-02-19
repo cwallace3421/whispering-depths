@@ -45,6 +45,7 @@ app.post('/login', (req, res) => {
 });
 
 gameServer.define(constants.ROOM_NAME, ArenaRoom);
+gameServer.simulateLatency(constants.SIMULATED_LATENCY);
 gameServer.listen(port);
 
 console.log(`Listening on http://${endpoint}:${port}`);
