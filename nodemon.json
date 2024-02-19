@@ -1,0 +1,14 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/",
+        "src/"
+    ],
+    "watch": [
+        "build/private"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
